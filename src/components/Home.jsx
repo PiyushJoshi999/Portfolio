@@ -11,25 +11,27 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Frontend Developer
+            I'm a Full-Stack Developer
           </h2>
           <p className="text-gray-500 py-4 ">
-            I'm a versatile Frontend Developer with a strong foundation in web
-            technologies like HTML, CSS, and JavaScript, and experience in
-            React.js, Bootstrap, Redux, Firebase, and more. I'm passionate about
-            creating seamless web experiences and committed to continuous
-            learning and innovation.
+            I'm a passionate and performance-driven Full-Stack
+            Developer based in India with hands-on experience in building
+            scalable web applications. Whether it's crafting real-time
+            web-applications or automating workflows,
+            I thrive on turning complex ideas into reliable
+            digital solutions.
           </p>
           <div>
             <Link
-            to="projects"
-            smooth duration={500}
+              to="projects"
+              smooth
+              duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md
           bg-gradient-to-r from-cyan-500 to-blue-600 cursor-pointer"
             >
               Projects
               <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className='ml-1' size={25}/>
+                <HiArrowNarrowRight className="ml-1" size={25} />
               </span>
             </Link>
           </div>
